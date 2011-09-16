@@ -4,7 +4,7 @@ Django Loginza + Jinja2
 
 Django-приложение, обеспечивающее работу с сервисом авторизации Loginza (loginza.ru)
 
-*Шаблонный тег loginza_iframe адаптирован для jinja2 (подключение jinja2 для django через [coffin](https://github.com/proft/coffin)). Другие теги (loginza_button, loginza_icons, loginza_string) на данный момент не адаптированны.
+*Шаблонный тег loginza_iframe адаптирован для jinja2 (подключение jinja2 для django через <a href="https://github.com/proft/coffin">coffin</a>). Другие теги (loginza_button, loginza_icons, loginza_string) на данный момент не адаптированны.*
 
 Установка
 =========
@@ -51,7 +51,7 @@ Django-приложение, обеспечивающее работу с сер
 Шаблонные теги для Jinja2
 =========================
 
-Для шаблонизатора jinja2 доступны такие теги::
+Для шаблонизатора jinja2 доступны такие теги:
 
 - ``loginza_iframe`` - встраиваемый виджета авторизации Loginza (спаренная форма авторизации)
 
